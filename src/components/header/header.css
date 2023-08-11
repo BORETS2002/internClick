@@ -1,0 +1,30 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__logo-link {
+  padding: 7px 12px;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.header__list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+.header__items {
+  margin: 5px;
+  padding: 5px;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+}
+.header__links {
+  text-decoration: none;
+}
+.active {
+  color: #ff0000;
+}

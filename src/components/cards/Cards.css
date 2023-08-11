@@ -1,0 +1,32 @@
+.main__list {
+  list-style: none;
+  padding: 0;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.main__item {
+  margin: 15px 20px;
+}
+.main__imgs {
+  border-radius: 20px;
+}
+.main__imgs-tite {
+  max-width: 190px;
+}
+.main__item-wrapper {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.main__miniWIndow {
+  display: block;
+  width: 55px;
+  height: 20px;
+  text-align: center;
+  margin-left: 10px;
+  border-radius: 5px;
+  background-color: #f3f3f3;
+}
